@@ -1,0 +1,64 @@
+{
+  "metrics": [
+    {
+      "model": "Linear Regression",
+      "n_features": 30,
+      "r2_train": 0.9115779932688088,
+      "r2": 0.9119582824445375,
+      "rmse": 6764.064116242224,
+      "mae": 4567.414752713638,
+      "mape": 45.83044423815853,
+      "pct_within_10pct": 23.635631335168156,
+      "pct_within_20pct": 40.868966906088474,
+      "train_seconds": 0.26,
+      "predict_seconds": 0.01
+    },
+    {
+      "model": "Decision Tree",
+      "n_features": 30,
+      "r2_train": 0.9906384820898635,
+      "r2": 0.9831599696646376,
+      "rmse": 2958.2501633341867,
+      "mae": 1219.4489310327745,
+      "mape": 8.413420890926524,
+      "pct_within_10pct": 74.2599181043163,
+      "pct_within_20pct": 87.22897227629724,
+      "train_seconds": 14.81,
+      "predict_seconds": 0.14
+    },
+    {
+      "model": "Random Forest",
+      "n_features": 30,
+      "r2_train": 0.9937701354798776,
+      "r2": 0.985894667306751,
+      "rmse": 2707.4168621862186,
+      "mae": 1167.9742108237544,
+      "mape": 7.708147415073332,
+      "pct_within_10pct": 75.72162180304758,
+      "pct_within_20pct": 89.38376854400215,
+      "train_seconds": 164.66,
+      "predict_seconds": 3.52
+    },
+    {
+      "model": "Random Forest (tanpa class)",
+      "n_features": 29,
+      "r2_train": 0.47771743999573146,
+      "r2": 0.017015638819682488,
+      "rmse": 22601.47416672987,
+      "mae": 16654.18666038248,
+      "mape": 152.10891750024328,
+      "pct_within_10pct": 24.986574478082836,
+      "pct_within_20pct": 32.496475800496746,
+      "train_seconds": 230.94,
+      "predict_seconds": 3.91
+    }
+  ],
+  "best_params": {
+    "n_estimators": 100,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": 0.5,
+    "max_depth": null
+  },
+  "delta_r2_without_class": -0.9689
+}

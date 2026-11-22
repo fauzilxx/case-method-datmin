@@ -1,0 +1,201 @@
+{
+  "gini_top10": [
+    {
+      "original": "class",
+      "gini_importance": 0.8302007041480751,
+      "pct": 83.02
+    },
+    {
+      "original": "airline",
+      "gini_importance": 0.06345623395803453,
+      "pct": 6.35
+    },
+    {
+      "original": "duration",
+      "gini_importance": 0.048011291599677874,
+      "pct": 4.8
+    },
+    {
+      "original": "days_left",
+      "gini_importance": 0.016952979816224928,
+      "pct": 1.7
+    },
+    {
+      "original": "stops",
+      "gini_importance": 0.01193839561315419,
+      "pct": 1.19
+    },
+    {
+      "original": "source_city",
+      "gini_importance": 0.010382770629316416,
+      "pct": 1.04
+    },
+    {
+      "original": "destination_city",
+      "gini_importance": 0.01021093929287351,
+      "pct": 1.02
+    },
+    {
+      "original": "arrival_time",
+      "gini_importance": 0.004762036317242558,
+      "pct": 0.48
+    },
+    {
+      "original": "departure_time",
+      "gini_importance": 0.004084648625400859,
+      "pct": 0.41
+    }
+  ],
+  "permutation_top10": [
+    {
+      "original": "class",
+      "perm_mean": 1.6304300619645222,
+      "drop_r2_pp": 163.043
+    },
+    {
+      "original": "duration",
+      "perm_mean": 0.08837779107957353,
+      "drop_r2_pp": 8.838
+    },
+    {
+      "original": "airline",
+      "perm_mean": 0.05104401025738019,
+      "drop_r2_pp": 5.104
+    },
+    {
+      "original": "source_city",
+      "perm_mean": 0.04583514388995147,
+      "drop_r2_pp": 4.584
+    },
+    {
+      "original": "destination_city",
+      "perm_mean": 0.043978716416278485,
+      "drop_r2_pp": 4.398
+    },
+    {
+      "original": "days_left",
+      "perm_mean": 0.029621051812782784,
+      "drop_r2_pp": 2.962
+    },
+    {
+      "original": "arrival_time",
+      "perm_mean": 0.012797985528582268,
+      "drop_r2_pp": 1.28
+    },
+    {
+      "original": "departure_time",
+      "perm_mean": 0.01097834685871466,
+      "drop_r2_pp": 1.098
+    },
+    {
+      "original": "stops",
+      "perm_mean": 0.009749123713530962,
+      "drop_r2_pp": 0.975
+    }
+  ],
+  "segment_top10": [
+    {
+      "original": "days_left",
+      "Economy": 112.381,
+      "Business": 9.107
+    },
+    {
+      "original": "airline",
+      "Economy": 61.801,
+      "Business": 28.027
+    },
+    {
+      "original": "duration",
+      "Economy": 23.177,
+      "Business": 71.944
+    },
+    {
+      "original": "source_city",
+      "Economy": 20.337,
+      "Business": 40.607
+    },
+    {
+      "original": "destination_city",
+      "Economy": 15.497,
+      "Business": 39.911
+    },
+    {
+      "original": "stops",
+      "Economy": 8.083,
+      "Business": 5.097
+    },
+    {
+      "original": "departure_time",
+      "Economy": 5.856,
+      "Business": 9.687
+    },
+    {
+      "original": "arrival_time",
+      "Economy": 5.335,
+      "Business": 11.243
+    },
+    {
+      "original": "class",
+      "Economy": 0.0,
+      "Business": 0.0
+    }
+  ],
+  "pdp_days_left": {
+    "Economy": {
+      "2": 14045.0,
+      "4": 10648.0,
+      "7": 10389.0,
+      "9": 11041.0,
+      "11": 9836.0,
+      "13": 9633.0,
+      "15": 8549.0,
+      "17": 6204.0,
+      "19": 5436.0,
+      "21": 5367.0,
+      "23": 5505.0,
+      "25": 5226.0,
+      "27": 5165.0,
+      "28": 5185.0,
+      "30": 5278.0,
+      "32": 4975.0,
+      "34": 5059.0,
+      "36": 5266.0,
+      "37": 5304.0,
+      "39": 5011.0,
+      "41": 4912.0,
+      "43": 4942.0,
+      "45": 4984.0,
+      "47": 4896.0,
+      "49": 4935.0
+    },
+    "Business": {
+      "2": 62169.0,
+      "5": 56366.0,
+      "6": 54678.0,
+      "8": 53809.0,
+      "11": 52790.0,
+      "13": 52504.0,
+      "15": 52577.0,
+      "17": 52740.0,
+      "19": 52683.0,
+      "21": 52376.0,
+      "22": 52304.0,
+      "24": 52375.0,
+      "26": 52152.0,
+      "28": 52289.0,
+      "30": 52353.0,
+      "32": 52084.0,
+      "34": 52057.0,
+      "36": 52024.0,
+      "37": 52063.0,
+      "39": 51912.0,
+      "41": 52029.0,
+      "43": 52049.0,
+      "45": 51894.0,
+      "47": 51794.0,
+      "49": 51701.0
+    }
+  },
+  "n_permutation_samples": 10000,
+  "n_repeats": 5
+}

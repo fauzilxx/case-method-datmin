@@ -1,0 +1,560 @@
+{
+  "shape": [
+    297940,
+    10
+  ],
+  "skew": 1.0539,
+  "kurtosis": -0.4139,
+  "pct_below_overall_median": {
+    "Economy": 72.74,
+    "Business": 0.0
+  },
+  "price_by_class": {
+    "Business": {
+      "count": 93173.0,
+      "mean": 52591.4,
+      "std": 12944.1,
+      "min": 12000.0,
+      "25%": 45189.0,
+      "50%": 53164.0,
+      "75%": 60396.0,
+      "max": 123071.0
+    },
+    "Economy": {
+      "count": 204767.0,
+      "mean": 6591.0,
+      "std": 3749.4,
+      "min": 1105.0,
+      "25%": 4189.0,
+      "50%": 5780.0,
+      "75%": 7767.0,
+      "max": 42349.0
+    }
+  },
+  "ratio_business_economy": 7.979,
+  "economy_max": 42349.0,
+  "business_min": 12000.0,
+  "business_overlap_count": 17295,
+  "pearson_days_left_price": -0.0923,
+  "peak_days_left": 2,
+  "peak_mean_price": 30258.2,
+  "trough_days_left": 47,
+  "trough_mean_price": 18693.5,
+  "amplitude_pct": 61.86,
+  "days_left_table": [
+    {
+      "days_left": 1,
+      "mean_price": 21610.4,
+      "median_price": 15166.0,
+      "n": 1920
+    },
+    {
+      "days_left": 2,
+      "mean_price": 30258.2,
+      "median_price": 18039.0,
+      "n": 4013
+    },
+    {
+      "days_left": 3,
+      "mean_price": 28987.7,
+      "median_price": 16333.0,
+      "n": 4239
+    },
+    {
+      "days_left": 4,
+      "mean_price": 25839.1,
+      "median_price": 13080.5,
+      "n": 5034
+    },
+    {
+      "days_left": 5,
+      "mean_price": 26824.0,
+      "median_price": 13149.0,
+      "n": 5345
+    },
+    {
+      "days_left": 6,
+      "mean_price": 24996.5,
+      "median_price": 12521.0,
+      "n": 5686
+    },
+    {
+      "days_left": 7,
+      "mean_price": 25724.5,
+      "median_price": 13023.0,
+      "n": 5659
+    },
+    {
+      "days_left": 8,
+      "mean_price": 25013.7,
+      "median_price": 12696.0,
+      "n": 5719
+    },
+    {
+      "days_left": 9,
+      "mean_price": 25850.0,
+      "median_price": 14014.0,
+      "n": 5621
+    },
+    {
+      "days_left": 10,
+      "mean_price": 25679.2,
+      "median_price": 13339.0,
+      "n": 5781
+    },
+    {
+      "days_left": 11,
+      "mean_price": 23129.5,
+      "median_price": 11617.0,
+      "n": 6353
+    },
+    {
+      "days_left": 12,
+      "mean_price": 22651.1,
+      "median_price": 11383.0,
+      "n": 6309
+    },
+    {
+      "days_left": 13,
+      "mean_price": 22646.0,
+      "median_price": 11448.0,
+      "n": 6337
+    },
+    {
+      "days_left": 14,
+      "mean_price": 22815.7,
+      "median_price": 11448.0,
+      "n": 6279
+    },
+    {
+      "days_left": 15,
+      "mean_price": 22076.5,
+      "median_price": 10604.0,
+      "n": 6283
+    },
+    {
+      "days_left": 16,
+      "mean_price": 20619.2,
+      "median_price": 7245.0,
+      "n": 6221
+    },
+    {
+      "days_left": 17,
+      "mean_price": 20496.0,
+      "median_price": 6895.0,
+      "n": 6365
+    },
+    {
+      "days_left": 18,
+      "mean_price": 20114.5,
+      "median_price": 6287.0,
+      "n": 6540
+    },
+    {
+      "days_left": 19,
+      "mean_price": 19563.4,
+      "median_price": 6172.0,
+      "n": 6503
+    },
+    {
+      "days_left": 20,
+      "mean_price": 19764.1,
+      "median_price": 6133.0,
+      "n": 6465
+    },
+    {
+      "days_left": 21,
+      "mean_price": 19498.9,
+      "median_price": 6122.0,
+      "n": 6438
+    },
+    {
+      "days_left": 22,
+      "mean_price": 19654.2,
+      "median_price": 6195.0,
+      "n": 6455
+    },
+    {
+      "days_left": 23,
+      "mean_price": 19896.3,
+      "median_price": 6450.0,
+      "n": 6367
+    },
+    {
+      "days_left": 24,
+      "mean_price": 19854.9,
+      "median_price": 6350.0,
+      "n": 6507
+    },
+    {
+      "days_left": 25,
+      "mean_price": 19648.0,
+      "median_price": 6067.0,
+      "n": 6581
+    },
+    {
+      "days_left": 26,
+      "mean_price": 19286.4,
+      "median_price": 5960.0,
+      "n": 6529
+    },
+    {
+      "days_left": 27,
+      "mean_price": 20031.8,
+      "median_price": 6067.0,
+      "n": 6318
+    },
+    {
+      "days_left": 28,
+      "mean_price": 19617.2,
+      "median_price": 6067.0,
+      "n": 6481
+    },
+    {
+      "days_left": 29,
+      "mean_price": 19815.8,
+      "median_price": 6169.0,
+      "n": 6360
+    },
+    {
+      "days_left": 30,
+      "mean_price": 19617.9,
+      "median_price": 6276.0,
+      "n": 6462
+    },
+    {
+      "days_left": 31,
+      "mean_price": 19451.5,
+      "median_price": 6067.0,
+      "n": 6501
+    },
+    {
+      "days_left": 32,
+      "mean_price": 19320.6,
+      "median_price": 5949.0,
+      "n": 6539
+    },
+    {
+      "days_left": 33,
+      "mean_price": 19373.5,
+      "median_price": 5960.0,
+      "n": 6490
+    },
+    {
+      "days_left": 34,
+      "mean_price": 19620.6,
+      "median_price": 6082.0,
+      "n": 6371
+    },
+    {
+      "days_left": 35,
+      "mean_price": 19323.7,
+      "median_price": 6161.0,
+      "n": 6252
+    },
+    {
+      "days_left": 36,
+      "mean_price": 19576.6,
+      "median_price": 6122.0,
+      "n": 6451
+    },
+    {
+      "days_left": 37,
+      "mean_price": 19561.4,
+      "median_price": 6172.0,
+      "n": 6441
+    },
+    {
+      "days_left": 38,
+      "mean_price": 19777.0,
+      "median_price": 6390.0,
+      "n": 6477
+    },
+    {
+      "days_left": 39,
+      "mean_price": 19341.5,
+      "median_price": 5975.5,
+      "n": 6544
+    },
+    {
+      "days_left": 40,
+      "mean_price": 19194.1,
+      "median_price": 5907.0,
+      "n": 6487
+    },
+    {
+      "days_left": 41,
+      "mean_price": 19433.1,
+      "median_price": 5937.0,
+      "n": 6478
+    },
+    {
+      "days_left": 42,
+      "mean_price": 19219.5,
+      "median_price": 5937.0,
+      "n": 6451
+    },
+    {
+      "days_left": 43,
+      "mean_price": 19406.7,
+      "median_price": 5949.0,
+      "n": 6428
+    },
+    {
+      "days_left": 44,
+      "mean_price": 19087.8,
+      "median_price": 6000.0,
+      "n": 6401
+    },
+    {
+      "days_left": 45,
+      "mean_price": 19300.3,
+      "median_price": 6032.0,
+      "n": 6256
+    },
+    {
+      "days_left": 46,
+      "mean_price": 19433.8,
+      "median_price": 5949.0,
+      "n": 6091
+    },
+    {
+      "days_left": 47,
+      "mean_price": 18693.5,
+      "median_price": 5823.0,
+      "n": 6007
+    },
+    {
+      "days_left": 48,
+      "mean_price": 19118.6,
+      "median_price": 5937.0,
+      "n": 6010
+    },
+    {
+      "days_left": 49,
+      "mean_price": 19107.3,
+      "median_price": 5949.0,
+      "n": 6095
+    }
+  ],
+  "pearson_within_economy": -0.5609,
+  "pearson_within_business": -0.0914,
+  "price_by_airline": {
+    "Vistara": {
+      "count": 126962.0,
+      "mean": 30494.7,
+      "median": 15624.0,
+      "std": 25662.5,
+      "min": 1714.0,
+      "max": 123071.0
+    },
+    "Air_India": {
+      "count": 80882.0,
+      "mean": 23507.9,
+      "median": 11520.0,
+      "std": 20905.6,
+      "min": 1526.0,
+      "max": 90970.0
+    },
+    "SpiceJet": {
+      "count": 8636.0,
+      "mean": 6210.6,
+      "median": 5654.0,
+      "std": 3041.2,
+      "min": 1106.0,
+      "max": 34158.0
+    },
+    "GO_FIRST": {
+      "count": 22979.0,
+      "mean": 5668.5,
+      "median": 5379.0,
+      "std": 2511.7,
+      "min": 1105.0,
+      "max": 32803.0
+    },
+    "Indigo": {
+      "count": 42470.0,
+      "mean": 5348.7,
+      "median": 4453.0,
+      "std": 3278.1,
+      "min": 1105.0,
+      "max": 31952.0
+    },
+    "AirAsia": {
+      "count": 16011.0,
+      "mean": 4099.5,
+      "median": 3282.0,
+      "std": 2828.8,
+      "min": 1105.0,
+      "max": 31917.0
+    }
+  },
+  "price_by_airline_economy": {
+    "Vistara": {
+      "count": 66684.0,
+      "median": 6461.0
+    },
+    "Air_India": {
+      "count": 47987.0,
+      "median": 6082.0
+    },
+    "SpiceJet": {
+      "count": 8636.0,
+      "median": 5654.0
+    },
+    "GO_FIRST": {
+      "count": 22979.0,
+      "median": 5379.0
+    },
+    "Indigo": {
+      "count": 42470.0,
+      "median": 4453.0
+    },
+    "AirAsia": {
+      "count": 16011.0,
+      "median": 3282.0
+    }
+  },
+  "price_by_stops": {
+    "zero": {
+      "count": 34341.0,
+      "mean": 9413.2,
+      "median": 4498.0
+    },
+    "one": {
+      "count": 250314.0,
+      "mean": 22927.1,
+      "median": 7971.0
+    },
+    "two_or_more": {
+      "count": 13285.0,
+      "mean": 14113.6,
+      "median": 8307.0
+    }
+  },
+  "price_by_stops_economy": {
+    "zero": {
+      "count": 26500.0,
+      "mean": 4004.7,
+      "median": 3453.0
+    },
+    "one": {
+      "count": 166065.0,
+      "mean": 6816.3,
+      "median": 5937.0
+    },
+    "two_or_more": {
+      "count": 12202.0,
+      "mean": 9142.0,
+      "median": 8012.0
+    }
+  },
+  "correlation": {
+    "duration": {
+      "duration": 1.0,
+      "days_left": -0.0398,
+      "price": 0.201,
+      "class_bin": 0.1367
+    },
+    "days_left": {
+      "duration": -0.0398,
+      "days_left": 1.0,
+      "price": -0.0923,
+      "class_bin": -0.0133
+    },
+    "price": {
+      "duration": 0.201,
+      "days_left": -0.0923,
+      "price": 1.0,
+      "class_bin": 0.938
+    },
+    "class_bin": {
+      "duration": 0.1367,
+      "days_left": -0.0133,
+      "price": 0.938,
+      "class_bin": 1.0
+    }
+  },
+  "pearson_duration_economy": 0.2847,
+  "pearson_duration_business": 0.2377,
+  "route_top5": [
+    {
+      "route": "Chennai -> Bangalore",
+      "count": 6483,
+      "median": 10469.0
+    },
+    {
+      "route": "Bangalore -> Chennai",
+      "count": 6353,
+      "median": 9420.0
+    },
+    {
+      "route": "Kolkata -> Chennai",
+      "count": 6634,
+      "median": 8701.5
+    },
+    {
+      "route": "Kolkata -> Hyderabad",
+      "count": 7892,
+      "median": 8483.0
+    },
+    {
+      "route": "Chennai -> Kolkata",
+      "count": 6962,
+      "median": 8394.0
+    }
+  ],
+  "route_bottom5": [
+    {
+      "route": "Delhi -> Bangalore",
+      "count": 13722,
+      "median": 6677.0
+    },
+    {
+      "route": "Hyderabad -> Mumbai",
+      "count": 10064,
+      "median": 6633.0
+    },
+    {
+      "route": "Mumbai -> Delhi",
+      "count": 14616,
+      "median": 6391.0
+    },
+    {
+      "route": "Hyderabad -> Delhi",
+      "count": 8474,
+      "median": 6167.0
+    },
+    {
+      "route": "Delhi -> Hyderabad",
+      "count": 9278,
+      "median": 6165.0
+    }
+  ],
+  "price_by_departure": {
+    "Morning": {
+      "count": 70824.0,
+      "median": 8118.0
+    },
+    "Night": {
+      "count": 47651.0,
+      "median": 7927.0
+    },
+    "Evening": {
+      "count": 64428.0,
+      "median": 7425.0
+    },
+    "Early_Morning": {
+      "count": 66250.0,
+      "median": 7241.0
+    },
+    "Afternoon": {
+      "count": 47485.0,
+      "median": 6711.0
+    },
+    "Late_Night": {
+      "count": 1302.0,
+      "median": 4499.0
+    }
+  }
+}

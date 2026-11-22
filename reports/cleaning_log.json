@@ -1,0 +1,224 @@
+{
+  "rows_raw": 300153,
+  "cols_raw": 12,
+  "missing_total": 0,
+  "audit_table": [
+    {
+      "column": "Unnamed: 0",
+      "dtype": "int64",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 300153
+    },
+    {
+      "column": "airline",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 6
+    },
+    {
+      "column": "flight",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 1561
+    },
+    {
+      "column": "source_city",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 6
+    },
+    {
+      "column": "departure_time",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 6
+    },
+    {
+      "column": "stops",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 3
+    },
+    {
+      "column": "arrival_time",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 6
+    },
+    {
+      "column": "destination_city",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 6
+    },
+    {
+      "column": "class",
+      "dtype": "str",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 2
+    },
+    {
+      "column": "duration",
+      "dtype": "float64",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 476
+    },
+    {
+      "column": "days_left",
+      "dtype": "int64",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 49
+    },
+    {
+      "column": "price",
+      "dtype": "int64",
+      "non_null": 300153,
+      "null": 0,
+      "null_pct": 0.0,
+      "n_unique": 12157
+    }
+  ],
+  "categorical_values": {
+    "airline": [
+      "AirAsia",
+      "Air_India",
+      "GO_FIRST",
+      "Indigo",
+      "SpiceJet",
+      "Vistara"
+    ],
+    "source_city": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai"
+    ],
+    "departure_time": [
+      "Afternoon",
+      "Early_Morning",
+      "Evening",
+      "Late_Night",
+      "Morning",
+      "Night"
+    ],
+    "stops": [
+      "one",
+      "two_or_more",
+      "zero"
+    ],
+    "arrival_time": [
+      "Afternoon",
+      "Early_Morning",
+      "Evening",
+      "Late_Night",
+      "Morning",
+      "Night"
+    ],
+    "destination_city": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai"
+    ],
+    "class": [
+      "Business",
+      "Economy"
+    ]
+  },
+  "price_stats_before": {
+    "count": 300153.0,
+    "mean": 20889.660523133203,
+    "std": 22697.76736607447,
+    "min": 1105.0,
+    "25%": 4783.0,
+    "50%": 7425.0,
+    "75%": 42521.0,
+    "max": 123071.0
+  },
+  "n_price_le0": 0,
+  "n_price_null": 0,
+  "price_by_class": {
+    "Business": {
+      "count": 93487.0,
+      "mean": 52540.08,
+      "median": 53164.0,
+      "min": 12000.0,
+      "max": 123071.0
+    },
+    "Economy": {
+      "count": 206666.0,
+      "mean": 6572.34,
+      "median": 5772.0,
+      "min": 1105.0,
+      "max": 42349.0
+    }
+  },
+  "dropped_columns": [
+    "Unnamed: 0",
+    "flight"
+  ],
+  "duplicates_removed": 2213,
+  "invalid_price_removed": 0,
+  "missing_value_rows_removed": 0,
+  "numeric_coercion_rows_removed": 0,
+  "outliers_price_iqr": {
+    "q1": 4792.0,
+    "q3": 42521.0,
+    "iqr": 37729.0,
+    "lower": -51801.5,
+    "upper": 99114.5,
+    "count": 123,
+    "pct": 0.041,
+    "action": "retained"
+  },
+  "rows_final": 297940,
+  "cols_final": 10,
+  "columns_final": [
+    "airline",
+    "source_city",
+    "departure_time",
+    "stops",
+    "arrival_time",
+    "destination_city",
+    "class",
+    "duration",
+    "days_left",
+    "price"
+  ],
+  "price_stats_after": {
+    "count": 297940.0,
+    "mean": 20976.44860374572,
+    "std": 22734.394635464265,
+    "min": 1105.0,
+    "25%": 4792.0,
+    "50%": 7466.0,
+    "75%": 42521.0,
+    "max": 123071.0
+  }
+}

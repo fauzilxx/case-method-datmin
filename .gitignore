@@ -1,0 +1,9 @@
+# Model binary artifacts (file besar > 100MB dilarang GitHub)
+models/*.joblib
+*.joblib
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
