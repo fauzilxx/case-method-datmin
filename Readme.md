@@ -109,17 +109,3 @@ Bagian-bagian ini memiliki tingkat kesulitan matematis, algoritma, atau komputas
 
 ---
 
-## 4. Panduan Menjawab Dosen Jika Ditanya Mengenai Penggunaan AI (*Defense Strategy*)
-
-Jika dosen penguji atau dosen pengampu menanyakan:  
-> *"Apakah kamu menggunakan bantuan AI dalam mengerjakan proyek ini?"*
-
-**Jawaban Elegan, Jujur, dan Menunjukkan Kompetensi Tinggi:**
-> *"Betul, Pak/Bu. Saya memanfaatkan AI secara bijak dan proporsional sebagai **asisten teknis (*coding & sounding partner*)**, terutama untuk bagian-bagian komputasi tingkat lanjut yang memiliki kompleksitas tinggi.  
-> 
-> * **Bagian yang saya kerjakan secara mandiri:** Saya menentukan sendiri rumusan masalah bisnisnya, melakukan eksplorasi data awal, memahami pola bimodal harga tiket, melakukan pembersihan data standar, serta menyusun rekomendasi manajerial praktis untuk maskapai dan konsumen.
-> * **Bagian yang saya diskusikan dengan AI:** Saya berkonsultasi dengan AI untuk merancang strategi optimasi hyperparameter dua tahap agar pelatihan model pada 238.000 data tidak memicu memory crash, menyusun skrip pengujian Permutation Importance per segmen (Ekonomi vs Bisnis), serta membantu menata sintaks LaTeX untuk rumus matematika dan tabel laporan.  
-> 
-> Seluruh alur program, logika algoritma Random Forest, alasan pemilihan hyperparameter, dan interpretasi angka-angka di laporan ini saya pahami dan kuasai sepenuhnya secara mandiri."*
-
----
